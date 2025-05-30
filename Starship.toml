@@ -1,4 +1,3 @@
-"$schema" = 'https://starship.rs/config-schema.json'
 
 format = """
 [](#0B2918)\
@@ -200,7 +199,6 @@ symbol = " "
 style = "bg:#C8F424"
 format = '[[ $symbol( $version) ](fg:#0B2918 bg:#C8F424)]($style)'
 
-# 移除不被 starship 官方支持的自定义工程模块
 # [typescript]
 # [angular]
 # [vuejs]
