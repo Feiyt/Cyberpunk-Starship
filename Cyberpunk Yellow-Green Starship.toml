@@ -1,0 +1,227 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = """
+[](#0B2918)\
+$os\
+$username\
+[](bg:#244E30 fg:#0B2918)\
+$directory\
+[](fg:#244E30 bg:#4B713F)\
+$git_branch\
+$git_status\
+[](fg:#4B713F bg:#5BAB3C)\
+$c\
+$cpp\
+$rust\
+$golang\
+$nodejs\
+$php\
+$java\
+$kotlin\
+$haskell\
+$python\
+[](fg:#5BAB3C bg:#C8F424)\
+$docker_context\
+$conda\
+$pixi\
+[](fg:#C8F424 bg:#F8FE29)\
+$time\
+[ ](fg:#F8FE29)\
+$line_break$character"""
+
+palette = 'cyberpunk_yellowgreen'
+
+[palettes.cyberpunk_yellowgreen]
+color1 = '#0B2918'
+color2 = '#244E30'
+color3 = '#4B713F'
+color4 = '#5BAB3C'
+color5 = '#C8F424'
+color6 = '#F8FE29'
+
+[os]
+disabled = false
+style = "bg:#0B2918 fg:#F8FE29"
+
+[os.symbols]
+Windows = "󰍲"
+Ubuntu = "󰕈"
+SUSE = ""
+Raspbian = "󰐿"
+Mint = "󰣭"
+Macos = "󰀵"
+Manjaro = ""
+Linux = "󰌽"
+Gentoo = "󰣨"
+Fedora = "󰣛"
+Alpine = ""
+Amazon = ""
+Android = ""
+Arch = "󰣇"
+Artix = "󰣇"
+EndeavourOS = ""
+CentOS = ""
+Debian = "󰣚"
+Redhat = "󱄛"
+RedHatEnterprise = "󱄛"
+Pop = ""
+
+[username]
+show_always = true
+style_user = "bg:#0B2918 fg:#F8FE29"
+style_root = "bg:#0B2918 fg:#F8FE29"
+format = '[ $user ]($style)'
+
+[directory]
+style = "fg:#F8FE29 bg:#244E30"
+format = "[ $path ]($style)"
+truncation_length = 0
+truncation_symbol = "…/"
+truncate_to_repo = false
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = "󰝚 "
+"Pictures" = " "
+"Developer" = "󰲋 "
+
+[git_branch]
+symbol = " "
+style = "bg:#4B713F"
+format = '[[ $symbol $branch ](fg:#F8FE29 bg:#4B713F)]($style)'
+
+[git_status]
+style = "bg:#4B713F"
+format = '[[($all_status$ahead_behind )](fg:#F8FE29 bg:#4B713F)]($style)'
+
+[nodejs]
+symbol = " "
+style = "bg:#5BAB3C"
+format = '[[ $symbol( $version) ](fg:#F8FE29 bg:#5BAB3C)]($style)'
+
+[c]
+symbol = " "
+style = "bg:#5BAB3C"
+format = '[[ $symbol( $version) ](fg:#F8FE29 bg:#5BAB3C)]($style)'
+
+[cpp]
+symbol = " "
+style = "bg:#5BAB3C"
+format = '[[ $symbol( $version) ](fg:#F8FE29 bg:#5BAB3C)]($style)'
+
+[rust]
+symbol = "󱘗 "
+style = "bg:#5BAB3C"
+format = '[[ $symbol( $version) ](fg:#F8FE29 bg:#5BAB3C)]($style)'
+
+[golang]
+symbol = " "
+style = "bg:#5BAB3C"
+format = '[[ $symbol( $version) ](fg:#F8FE29 bg:#5BAB3C)]($style)'
+
+[php]
+symbol = " "
+style = "bg:#5BAB3C"
+format = '[[ $symbol( $version) ](fg:#F8FE29 bg:#5BAB3C)]($style)'
+
+[java]
+symbol = " "
+style = "bg:#5BAB3C"
+format = '[[ $symbol( $version) ](fg:#F8FE29 bg:#5BAB3C)]($style)'
+
+[kotlin]
+symbol = " "
+style = "bg:#5BAB3C"
+format = '[[ $symbol( $version) ](fg:#F8FE29 bg:#5BAB3C)]($style)'
+
+[haskell]
+symbol = " "
+style = "bg:#5BAB3C"
+format = '[[ $symbol( $version) ](fg:#F8FE29 bg:#5BAB3C)]($style)'
+
+[python]
+symbol = " "
+style = "bg:#5BAB3C"
+format = '[[ $symbol( $version) ](fg:#F8FE29 bg:#5BAB3C)]($style)'
+
+[docker_context]
+symbol = " "
+style = "bg:#C8F424"
+format = '[[ $symbol( $context) ](fg:#244E30 bg:#C8F424)]($style)'
+
+[conda]
+symbol = " "
+style = "bg:#C8F424"
+format = '[[ $symbol( $environment) ](fg:#244E30 bg:#C8F424)]($style)'
+
+[pixi]
+symbol = "󰏗 "
+style = "bg:#C8F424"
+format = '[[ $symbol( $version)( $environment) ](fg:#0B2918 bg:#C8F424)]($style)'
+
+[package]
+symbol = "󰏗 "
+style = "bg:#C8F424"
+format = '[[ $symbol( $version) ](fg:#0B2918 bg:#C8F424)]($style)'
+
+[swift]
+symbol = " "
+style = "bg:#C8F424"
+format = '[[ $symbol( $version) ](fg:#0B2918 bg:#C8F424)]($style)'
+
+[elixir]
+symbol = " "
+style = "bg:#C8F424"
+format = '[[ $symbol( $version) ](fg:#0B2918 bg:#C8F424)]($style)'
+
+[erlang]
+symbol = " "
+style = "bg:#C8F424"
+format = '[[ $symbol( $version) ](fg:#0B2918 bg:#C8F424)]($style)'
+
+[scala]
+symbol = " "
+style = "bg:#C8F424"
+format = '[[ $symbol( $version) ](fg:#0B2918 bg:#C8F424)]($style)'
+
+[perl]
+symbol = " "
+style = "bg:#C8F424"
+format = '[[ $symbol( $version) ](fg:#0B2918 bg:#C8F424)]($style)'
+
+[ruby]
+symbol = " "
+style = "bg:#C8F424"
+format = '[[ $symbol( $version) ](fg:#0B2918 bg:#C8F424)]($style)'
+
+[dotnet]
+symbol = " "
+style = "bg:#C8F424"
+format = '[[ $symbol( $version) ](fg:#0B2918 bg:#C8F424)]($style)'
+
+# 移除不被 starship 官方支持的自定义工程模块
+# [typescript]
+# [angular]
+# [vuejs]
+# [react]
+# [quarto]
+# [terraform]
+
+[time]
+disabled = false
+time_format = "%R"
+style = "bg:#F8FE29"
+format = '[[  $time ](fg:#0B2918 bg:#F8FE29)]($style)'
+
+[line_break]
+disabled = false
+
+[character]
+disabled = false
+success_symbol = '[↪](bold fg:#5BAB3C)'
+error_symbol = '[❌](bold fg:#0B2918)'
+vimcmd_symbol = '[⮜](bold fg:#5BAB3C)'
+vimcmd_replace_one_symbol = '[⮜](bold fg:#C8F424)'
+vimcmd_replace_symbol = '[⮜](bold fg:#C8F424)'
+vimcmd_visual_symbol = '[⮜](bold fg:#F8FE29)'
