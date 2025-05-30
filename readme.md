@@ -1,17 +1,15 @@
-# Cyberpunk Yellow-Green Starship 
+# Cyberpunk Yellow-Green 
 
-[中文说明](readme-zh.md)  
-This project provides a Cyberpunk yellow-green color theme for the [Starship](https://starship.rs/) shell prompt, suitable for Windows, Linux, and macOS. The theme file is `Cyberpunk Yellow-Green Starship.toml`, which can be used directly to enhance your terminal experience.
+[中文说明](readme-zh.md)
 
-## File Structure
+❗This project is inspired by [Gruvbox Rainbow](https://starship.rs/presets/gruvbox-rainbow). Thanks to the original authors!
 
-- `Cyberpunk Yellow-Green Starship.toml`: Theme configuration file, including color palette, icons, module order, and detailed settings.
-- `demo.gif`: Animated preview of the theme in action.
-- `README.md`: Project documentation.
+This project is a cyberpunk yellow-green color theme for the [Starship](https://starship.rs/) shell prompt, suitable for Windows, Linux, and macOS. The theme file is `Cyberpunk Yellow-Green.toml`, which can be used directly to beautify your terminal experience.
+
 
 ## Main Features
 
-- Cyberpunk-style yellow-green tones, comfortable for night use
+- Cyberpunk-style yellow-green tones
 - Custom icons and styles for multiple operating systems and popular programming languages
 - Supports Node.js, Python, Rust, Go, Java, PHP, and more
 - Beautified modules for directory, Git, time, virtual environments, etc.
