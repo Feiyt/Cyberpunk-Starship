@@ -1,4 +1,4 @@
-# Cyberpunk Yellow-Green Starship 主题
+# Cyberpunk Yellow-Green Starship 
 
 [English](README.md)
 本项目是一个为 [Starship](https://starship.rs/) shell 提示符设计的赛博朋克黄绿配色主题，适用于 Windows、Linux、macOS 等操作系统。主题文件为 `Cyberpunk Yellow-Green Starship.toml`，可直接用于美化你的终端体验。
