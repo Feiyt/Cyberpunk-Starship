@@ -43,27 +43,28 @@ disabled = false
 style = "bg:#0B2918 fg:#F8FE29"
 
 [os.symbols]
-Windows = "󰍲"
-Ubuntu = "󰕈"
+Windows = "⊞"
+Ubuntu = ""
 SUSE = ""
-Raspbian = "󰐿"
-Mint = "󰣭"
-Macos = "󰀵"
+Raspbian = ""
+Mint = ""
+Macos = "🍎"
 Manjaro = ""
-Linux = "󰌽"
-Gentoo = "󰣨"
-Fedora = "󰣛"
+Linux = "🐧"
+Gentoo = ""
+Fedora = ""
 Alpine = ""
 Amazon = ""
-Android = ""
-Arch = "󰣇"
-Artix = "󰣇"
+Android = "🤖"
+Arch = ""
+Artix = ""
 EndeavourOS = ""
 CentOS = ""
-Debian = "󰣚"
-Redhat = "󱄛"
-RedHatEnterprise = "󱄛"
+Debian = ""
+Redhat = ""
+RedHatEnterprise = ""
 Pop = ""
+
 
 [username]
 show_always = true
@@ -79,14 +80,14 @@ truncation_symbol = "…/"
 truncate_to_repo = false
 
 [directory.substitutions]
-"Documents" = "󰈙 "
-"Downloads" = " "
-"Music" = "󰝚 "
-"Pictures" = " "
-"Developer" = "󰲋 "
+"Documents" = "📄 "
+"Downloads" = "📥 "
+"Music" = "🎵 "
+"Pictures" = "🖼️ "
+"Developer" = "💻 "
 
 [git_branch]
-symbol = " "
+symbol = "🌱 "
 style = "bg:#4B713F"
 format = '[[ $symbol $branch ](fg:#F8FE29 bg:#4B713F)]($style)'
 
@@ -95,107 +96,107 @@ style = "bg:#4B713F"
 format = '[[($all_status$ahead_behind )](fg:#F8FE29 bg:#4B713F)]($style)'
 
 [nodejs]
-symbol = " "
+symbol = "⬢ "
 style = "bg:#5BAB3C"
 format = '[[ $symbol( $version) ](fg:#F8FE29 bg:#5BAB3C)]($style)'
 
 [c]
-symbol = " "
+symbol = "C "
 style = "bg:#5BAB3C"
 format = '[[ $symbol( $version) ](fg:#F8FE29 bg:#5BAB3C)]($style)'
 
 [cpp]
-symbol = " "
+symbol = "C++ "
 style = "bg:#5BAB3C"
 format = '[[ $symbol( $version) ](fg:#F8FE29 bg:#5BAB3C)]($style)'
 
 [rust]
-symbol = "󱘗 "
+symbol = "🦀 "
 style = "bg:#5BAB3C"
 format = '[[ $symbol( $version) ](fg:#F8FE29 bg:#5BAB3C)]($style)'
 
 [golang]
-symbol = " "
+symbol = "🐹 "
 style = "bg:#5BAB3C"
 format = '[[ $symbol( $version) ](fg:#F8FE29 bg:#5BAB3C)]($style)'
 
 [php]
-symbol = " "
+symbol = "🐘 "
 style = "bg:#5BAB3C"
 format = '[[ $symbol( $version) ](fg:#F8FE29 bg:#5BAB3C)]($style)'
 
 [java]
-symbol = " "
+symbol = "☕ "
 style = "bg:#5BAB3C"
 format = '[[ $symbol( $version) ](fg:#F8FE29 bg:#5BAB3C)]($style)'
 
 [kotlin]
-symbol = " "
+symbol = "Kotlin "
 style = "bg:#5BAB3C"
 format = '[[ $symbol( $version) ](fg:#F8FE29 bg:#5BAB3C)]($style)'
 
 [haskell]
-symbol = " "
+symbol = "λ "
 style = "bg:#5BAB3C"
 format = '[[ $symbol( $version) ](fg:#F8FE29 bg:#5BAB3C)]($style)'
 
 [python]
-symbol = " "
+symbol = "🐍 "
 style = "bg:#5BAB3C"
-format = '[[ $symbol( $version) ](fg:#F8FE29 bg:#5BAB3C)]($style)'
+format = '[[ $symbol( $version)( \($virtualenv\)) ](fg:#F8FE29 bg:#5BAB3C)]($style)'
 
 [docker_context]
-symbol = " "
+symbol = "🐳 "
 style = "bg:#C8F424"
 format = '[[ $symbol( $context) ](fg:#244E30 bg:#C8F424)]($style)'
 
 [conda]
-symbol = " "
+symbol = "Conda "
 style = "bg:#C8F424"
 format = '[[ $symbol( $environment) ](fg:#244E30 bg:#C8F424)]($style)'
 
 [pixi]
-symbol = "󰏗 "
+symbol = "Pixi "
 style = "bg:#C8F424"
 format = '[[ $symbol( $version)( $environment) ](fg:#0B2918 bg:#C8F424)]($style)'
 
 [package]
-symbol = "󰏗 "
+symbol = "📦 "
 style = "bg:#C8F424"
 format = '[[ $symbol( $version) ](fg:#0B2918 bg:#C8F424)]($style)'
 
 [swift]
-symbol = " "
+symbol = "Swift "
 style = "bg:#C8F424"
 format = '[[ $symbol( $version) ](fg:#0B2918 bg:#C8F424)]($style)'
 
 [elixir]
-symbol = " "
+symbol = "💧 "
 style = "bg:#C8F424"
 format = '[[ $symbol( $version) ](fg:#0B2918 bg:#C8F424)]($style)'
 
 [erlang]
-symbol = " "
+symbol = "Erlang "
 style = "bg:#C8F424"
 format = '[[ $symbol( $version) ](fg:#0B2918 bg:#C8F424)]($style)'
 
 [scala]
-symbol = " "
+symbol = "Scala "
 style = "bg:#C8F424"
 format = '[[ $symbol( $version) ](fg:#0B2918 bg:#C8F424)]($style)'
 
 [perl]
-symbol = " "
+symbol = "🐪 "
 style = "bg:#C8F424"
 format = '[[ $symbol( $version) ](fg:#0B2918 bg:#C8F424)]($style)'
 
 [ruby]
-symbol = " "
+symbol = "💎 "
 style = "bg:#C8F424"
 format = '[[ $symbol( $version) ](fg:#0B2918 bg:#C8F424)]($style)'
 
 [dotnet]
-symbol = " "
+symbol = ".NET "
 style = "bg:#C8F424"
 format = '[[ $symbol( $version) ](fg:#0B2918 bg:#C8F424)]($style)'
 
@@ -210,7 +211,7 @@ format = '[[ $symbol( $version) ](fg:#0B2918 bg:#C8F424)]($style)'
 disabled = false
 time_format = "%R"
 style = "bg:#F8FE29"
-format = '[[  $time ](fg:#0B2918 bg:#F8FE29)]($style)'
+format = '[[ 🕒 $time ](fg:#0B2918 bg:#F8FE29)]($style)'
 
 [line_break]
 disabled = false
